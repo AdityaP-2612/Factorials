@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Factorial</title>
+    <link rel="stylesheet" href="factorial.css">
+</head>
+<body>
+    <h1 id="heading">Find Factorial !!!</h1>
+    <br>
+    <br>
+    <h4 id="def">Basic Definition:-</h4>
+    <p id="factdef">Factorial is a mathematical operation that involves multiplying a number by all the positive integers less than or equal to itself. It is denoted by an exclamation mark(!) after the number.</p>
+    <hr id="line1">
+    <br>
+    <br>
+    <br>
+<div id="box">
+    <div id="factdiv">
+        <input type="number" placeholder="Enter Your Value Here" id="factinput">
+        <br>
+        <button id="btn1">Calculate</button>
+    </div>
+    <p id="result"></p>
+</div>
+<script src="factorial.js"></script>
+<script>
+    document.getElementById("btn1").addEventListener("click", function() {
+      let input = document.getElementById("factinput").value;
+      let result = factorial(parseInt(input));
+      document.getElementById("result").textContent = "The factorial of " + input + " is " + result;
+  });
+  </script>
+</body>
+</html>

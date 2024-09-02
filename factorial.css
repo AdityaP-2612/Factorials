@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(104, 210, 255);
+}
+
+
+
+#heading{
+    color:rgb(186, 8, 8);
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+    font-weight:2000;
+    font-size:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#def{
+    margin-bottom: 2px;
+    text-decoration:underline;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#factdef{
+    margin-top: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size:17px;
+}
+#line1{
+    width:100%;
+    height:1px;
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+#factinput{
+    height:40px;
+    border-radius:50px;
+    font-size: 20px;
+    text-align:center;
+    font-family: cursive;
+    margin-bottom: 5px;
+    padding:10px;
+}
+#factdiv{
+    text-align: center;
+}
+#factinput::placeholder{
+    font-size:20px;
+}
+#btn1{
+    width:80px;
+    height:30px;
+    border-radius: 40px;
+    background-color: rgb(7, 236, 30);
+    font-weight: bold;
+}
+#result{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#box{
+    width:300px;
+    padding:20px;
+    margin: 0 auto;
+    border:1px solid;
+    border-color: black;
+    background-color: rgb(122, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
